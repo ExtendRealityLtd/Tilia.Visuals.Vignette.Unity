@@ -1,23 +1,26 @@
 {
-    "name": "io.extendreality.tilia.{scope}.{feature}.{platform?}",
-    "displayName": "Tilia {scope}.{feature}.{platform?}",
-    "description": "{Description of feature.}",
-    "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/blob/master/CHANGELOG.md",
-    "documentationUrl": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/tree/master/Documentation",
-    "licensesUrl": "https://github.com/ExtendRealityLtd/Tilia.CameraRigs.{scope}.{feature}.{platform?}/blob/master/LICENSE.md",
+    "name": "io.extendreality.tilia.visuals.vignette.unity",
+    "displayName": "Tilia Visuals Vignette Unity",
+    "description": "Creates a vignette tunnel in front of a camera view to improve comfort for fast movements in VR for the Unity software.",
+    "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity/blob/master/CHANGELOG.md",
+    "documentationUrl": "https://github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity/tree/master/Documentation",
+    "licensesUrl": "https://github.com/ExtendRealityLtd/Tilia.CameraRigs.Visuals.Vignette.Unity/blob/master/LICENSE.md",
     "version": "1.0.0",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [
-        "pattern"
+        "visual",
+		"vignette",
+		"tunnel",
+		"comfort"
     ],
-    "homepage": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/",
+    "homepage": "https://github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity/",
     "bugs": {
-        "url": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/issues"
+        "url": "https://github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity/issues"
     },
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.git"
+        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity.git"
     },
     "license": "MIT",
     "author": {
@@ -26,7 +29,8 @@
         "url": "https://github.com/ExtendRealityLtd"
     },
     "dependencies": {
-        "io.extendreality.zinnia.unity": "X.Y.Z"
+        "io.extendreality.zinnia.unity": "2.12.1",
+        "io.extendreality.tilia.utilities.shaders.unity": "1.4.0"
     },
     "files": [
         "*.md",
@@ -34,6 +38,8 @@
         "*.asmdef",
         "*.xml",
         "Documentation",
-        "Runtime"
+        "Runtime",
+        "Editor",
+        "docfx.json"
     ]
 }
