@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.4](https://github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity/compare/v1.0.3...v1.0.4) (2023-07-10)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 2.14.0 to 2.15.0 ([92bc7ff](https://github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity/commit/92bc7ff0d7929411e64fe29cf51da2476ae31ab5))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 2.14.0 to 2.15.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v2.14.0...v2.15.0)
+
 ### [1.0.3](https://github.com/ExtendRealityLtd/Tilia.Visuals.Vignette.Unity/compare/v1.0.2...v1.0.3) (2023-07-08)
 
 #### Miscellaneous Chores
